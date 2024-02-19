@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+ body{
+    background-color: lightslategrey;
+} 
+div.counter{
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h2,h1{
+    text-align: center;
+}
+h2{
+    color: gray;
+}
+h1{
+    color:blueviolet;
+}
+
+div.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+div.show{
+    width: 100%;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+
+div.buttons button{
+    width: 9rem;
+}
+div.toggle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.toggle button{
+    margin: auto;
+}
+
+div.counter{
+    border: 2px solid black;
+}
